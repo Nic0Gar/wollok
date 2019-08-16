@@ -1,0 +1,19 @@
+import Sueldos.*
+
+test "test1" {
+	pepe.cantFalta(3)
+	pepe.categoria(cadete)
+	pepe.bonoPresentismo(bonoPresentismoNormal)
+	pepe.bonoResultados(bonoResuMontoFijo)	
+	assert.equals(20800, pepe.sueldoTotal())
+
+}
+
+test "test2" {
+	pepe.cantFalta(0)
+	pepe.categoria(gerente)
+	pepe.bonoPresentismo(bonoNulo)
+	pepe.bonoResultados(bonoResuPorcentaje)	
+	assert.equals(16500, pepe.sueldoTotal())
+
+}
