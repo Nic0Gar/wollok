@@ -5,7 +5,7 @@ object pepe{
 	var bonoResultados = bonoNulo
 	var faltas = 1
 	
-	
+	// PRUEBA DE COMMIT
 	method categoria(cat){
 		categoria=cat
 	}
